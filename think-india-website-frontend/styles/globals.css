@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'Robotic';
+        src: url('/fonts/Robotic-Cyborg.woff2') format('woff2');
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+html {
+    scroll-behavior: smooth !important;
+}
+
+#codexthonInnerDiv{
+    background-image: url("../public/Hackathon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

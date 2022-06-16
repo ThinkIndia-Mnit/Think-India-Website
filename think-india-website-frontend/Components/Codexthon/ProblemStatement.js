@@ -74,7 +74,7 @@ const ProblemStatement = () => {
               <i>
                 Real world delivery system applications do not meet the
                 requirement of providing delivery priority on basis of
-                urgency.Generally we observe in real world that there is someone
+                urgency. Generally we observe in real world that there is someone
                 who is in desparate need of a delivery, example medications and
                 other who are not as much desparate for their delivery. In such
                 circumstances, the delivery system should be effective and

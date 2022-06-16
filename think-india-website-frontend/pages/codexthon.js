@@ -1,11 +1,11 @@
 import React from "react";
 
-import Navbar from "../components/Codexthon/Navbar";
-import About from "../components/Codexthon/About";
-import Idea from "../components/Codexthon/Idea";
-import EvalCriteria from "../components/Codexthon/EvalCriteria";
-import ProblemStatement from "../components/Codexthon/ProblemStatement";
-import Organiser from "../components/Codexthon/Organiser";
+import Navbar from "../Components/Codexthon/Navbar";
+import About from "../Components/Codexthon/About";
+import Idea from "../Components/Codexthon/Idea";
+import EvalCriteria from "../Components/Codexthon/EvalCriteria";
+import ProblemStatement from "../Components/Codexthon/ProblemStatement";
+import Organiser from "../Components/Codexthon/Organiser";
 
 const codexthon = () => {
   return (

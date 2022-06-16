@@ -72,12 +72,13 @@ const ProblemStatement = () => {
             </div>
             <div className="my-5 text-2xl bg-cyan-900 p-3 rounded-xl">
               <i>
-                The need of ML is increasing day by day. We see a lot of content
-                on internet. But in order to show relevant content to the user,
-                a recommendation system also needs to be maintained. You can
-                design a ML model to recommend video or image. There should be
-                proper platform like website or android app to showcase the
-                algorithm on dummy data.
+                Generally we observe in real world that there is someone who is
+                in desparate need of a delivery, example medications and other
+                who are not as much desparate for their delivery. In such
+                circumstances, the delivery system should be effective and should cater
+                that person who needs his/her delivery urgently. Develop an
+                application(web app or android app) that caters to this
+                requirement.
               </i>
             </div>
           </li>

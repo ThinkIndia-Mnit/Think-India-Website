@@ -18,20 +18,17 @@ const organiser = () => {
           <img
             src="/thinkindialogo.png"
             alt="org1"
-            className="rounded-2xl text-center"
-            style={{
-              width: "200px",
-              height: "250px",
-            }}
+            className="rounded-2xl text-center h-auto"
+            style={{ width: "250px" }}
           />
           <div
-            className="mt-6 text-black font-semibold"
+            className="mt-6 text-2xl text-black font-semibold"
             style={{ width: "max-content" }}
           >
             DIY SECTION
           </div>
           <div
-            className="my-3 text-black font-semibold"
+            className="my-3 text-2xl text-black font-semibold"
             style={{ width: "max-content" }}
           >
             THINK INDIA MNIT JAIPUR

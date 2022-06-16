@@ -20,3 +20,8 @@ html {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+#registerBtn,#registerBtn:hover,#registerBtnOuterDiv,#registerBtnOuterDiv:hover {
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}

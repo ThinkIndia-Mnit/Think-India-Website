@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 bg-black lg:px-4 md:px-4 border-gray-200 py-2.5 px-2 rounded dark:bg-gray-800">
+    <nav className="sticky z-20 top-0 bg-black lg:px-4 md:px-4 border-gray-200 py-2.5 px-2 rounded dark:bg-gray-800">
       <div className="flex flex-wrap justify-between items-center mx-auto">
         <span className="self-center text-3xl whitespace-nowrap dark:text-white font-robotic">
           <a href="#about">Codexthon</a>
@@ -86,16 +86,6 @@ const Navbar = () => {
                 className="block my-2 text-white hover:text-gray-300 text-xl"
               >
                 Organisers
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://docs.google.com/forms/d/1oN1pb4ZJSQ4Q9ZXSCwBpC_k3Ek5ngAfrcsewQsT5nsE/edit?usp=sharing_eil_se_dm&ts=62a986da"
-                className="bg-blue-500 px-2 py-1 rounded-md block my-2 text-white hover:text-gray-300 text-xl"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Register here
               </a>
             </li>
           </ul>

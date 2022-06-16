@@ -36,7 +36,7 @@ const About = () => {
             className=" shadow-emerald-400 shadow-lg hover:bg-emerald-400 text-black hover:shadow-none hover:text-black"
           >
             <a
-              href="https://docs.google.com/forms/d/1oN1pb4ZJSQ4Q9ZXSCwBpC_k3Ek5ngAfrcsewQsT5nsE/edit?usp=sharing_eil_se_dm&ts=62a986da"
+              href="https://unstop.com/p/codexthon-malaviya-national-institute-of-technology-mnit-jaipur-360380"
               className="rounded-lg border-2 hover:border-none border-white px-3 py-2 block my-2 text-white hover:text-black lg:text-2xl md:text-lg text-base"
               target="_blank"
               rel="noreferrer"

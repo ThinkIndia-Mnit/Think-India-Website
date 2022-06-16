@@ -72,13 +72,15 @@ const ProblemStatement = () => {
             </div>
             <div className="my-5 text-2xl bg-cyan-900 p-3 rounded-xl">
               <i>
-                Generally we observe in real world that there is someone who is
-                in desparate need of a delivery, example medications and other
-                who are not as much desparate for their delivery. In such
-                circumstances, the delivery system should be effective and should cater
-                that person who needs his/her delivery urgently. Develop an
-                application(web app or android app) that caters to this
-                requirement.
+                Real world delivery system applications do not meet the
+                requirement of providing delivery priority on basis of
+                urgency.Generally we observe in real world that there is someone
+                who is in desparate need of a delivery, example medications and
+                other who are not as much desparate for their delivery. In such
+                circumstances, the delivery system should be effective and
+                should cater that person who needs his/her delivery urgently.
+                Develop an application(web app or android app) that caters to
+                this requirement.
               </i>
             </div>
           </li>

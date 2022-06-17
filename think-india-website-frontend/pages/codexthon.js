@@ -6,6 +6,7 @@ import Idea from "../Components/Codexthon/Idea";
 import EvalCriteria from "../Components/Codexthon/EvalCriteria";
 import ProblemStatement from "../Components/Codexthon/ProblemStatement";
 import Organiser from "../Components/Codexthon/Organiser";
+import Footer from "../Components/Codexthon/Footer";
 
 const codexthon = () => {
   return (
@@ -23,6 +24,7 @@ const codexthon = () => {
       <EvalCriteria />
       <ProblemStatement />
       <Organiser />
+      <Footer />
     </div>
   );
 };

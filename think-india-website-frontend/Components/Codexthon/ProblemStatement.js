@@ -86,6 +86,18 @@ const ProblemStatement = () => {
           </li>
           <li className="my-10">
             <div className="my-5 text-4xl underline font-semibold">
+              Rental App - Mobile Application Development Task
+            </div>
+            <div className="my-5 text-2xl bg-cyan-900 p-3 rounded-xl">
+              <i>
+                Build a rental system where people can rent vehicles(user) and put their automobile on rent(admin). You can take references from ZoomCar. Develop an android app on flutter(mandatory) for frontend and backend according to convenience.
+                <br></br>
+                <a href="https://drive.google.com/file/d/1iWN1sJwdunFe0xBQM8MQpFg_pcTXFBBx/view?usp=sharing" target="_blank">Click here for more details.</a>
+              </i>
+            </div>
+          </li>
+          <li className="my-10">
+            <div className="my-5 text-4xl underline font-semibold">
               College/campus related issues
             </div>
             <div className="my-5 text-2xl bg-cyan-900 p-3 rounded-xl">

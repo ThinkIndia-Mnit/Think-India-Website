@@ -82,6 +82,14 @@ const Navbar = () => {
             </li>
             <li onClick={closeBurgerMenu}>
               <a
+                href="#sponsers"
+                className="block my-2 text-white hover:text-gray-300 text-xl"
+              >
+                Sponsers
+              </a>
+            </li>
+            <li onClick={closeBurgerMenu}>
+              <a
                 href="#organisers"
                 className="block my-2 text-white hover:text-gray-300 text-xl"
               >

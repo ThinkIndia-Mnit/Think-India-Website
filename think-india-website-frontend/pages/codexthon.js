@@ -7,6 +7,7 @@ import EvalCriteria from "../Components/Codexthon/EvalCriteria";
 import ProblemStatement from "../Components/Codexthon/ProblemStatement";
 import Organiser from "../Components/Codexthon/Organiser";
 import Footer from "../Components/Codexthon/Footer";
+import Sponsers from "../Components/Codexthon/Sponsers";
 
 const codexthon = () => {
   return (
@@ -23,6 +24,7 @@ const codexthon = () => {
       <Idea />
       <EvalCriteria />
       <ProblemStatement />
+      <Sponsers />
       <Organiser />
       <Footer />
     </div>

@@ -8,7 +8,7 @@ const organiser = () => {
       id="organisers"
     >
       <div className="text-5xl my-5" style={{ color: "#ADEFD1FF" }}>
-        Organisers
+        ORGANISERS
       </div>
       <div className="text-2xl w-full" style={{ textAlign: "-webkit-center" }}>
         <div

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
     @font-face {
         font-family: 'Robotic';
         src: url('/fonts/Robotic-Cyborg.woff2') format('woff2');
@@ -15,13 +15,30 @@ html {
     scroll-behavior: smooth !important;
 }
 
-#codexthonInnerDiv{
+#codexthonInnerDiv {
     background-image: url("../public/Hackathon.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#registerBtn,#registerBtn:hover,#registerBtnOuterDiv,#registerBtnOuterDiv:hover {
+#registerBtn,
+#registerBtn:hover,
+#registerBtnOuterDiv,
+#registerBtnOuterDiv:hover {
     transition-timing-function: linear;
     transition-duration: 0.3s;
+}
+
+.disprow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+@media screen and (max-width:900px) {
+    .disprow {
+        display: flex;
+        flex-direction: column;
+    }
 }

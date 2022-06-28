@@ -13,7 +13,7 @@ const Sponsers = () => {
                 <div className="disprow">
                     <div
                         className="bg-white p-5 rounded-2xl"
-                        style={{ width: "max-content" }}
+                        style={{ width: "max-content", margin: "50px auto" }}
                     >
                         <img
                             src="/clerky.png"
@@ -36,7 +36,7 @@ const Sponsers = () => {
                     </div>
                     <div
                         className="bg-white p-5 rounded-2xl"
-                        style={{ width: "max-content" }}
+                        style={{ width: "max-content", margin: "50px auto" }}
                     >
                         <img
                             src="/hackclub.png"
@@ -60,7 +60,7 @@ const Sponsers = () => {
 
                     <div
                         className="bg-white p-5 rounded-2xl"
-                        style={{ width: "300px" }}
+                        style={{ width: "300px", margin: "50px auto" }}
                     ><div style={{ height: "100px", justifyContent: "center", padding: "20px" }}>
                             <img
                                 src="/OReilly.png"
@@ -85,9 +85,10 @@ const Sponsers = () => {
                     </div>
                 </div>
                 <div className="disprow">
+
                     <div
                         className="bg-white p-5 rounded-2xl"
-                        style={{ width: "300px" }}
+                        style={{ width: "300px", margin: "50px auto" }}
                     ><div style={{ height: "100px", justifyContent: "center" }}>
                             <img
                                 src="/taskade.png"
@@ -111,7 +112,7 @@ const Sponsers = () => {
                     </div>
                     <div
                         className="bg-white p-5 rounded-2xl"
-                        style={{ width: "300px" }}
+                        style={{ width: "300px", margin: "50px auto" }}
                     ><div style={{ height: "100px", justifyContent: "center" }}>
                             <img
                                 src="/gmc.jfif"

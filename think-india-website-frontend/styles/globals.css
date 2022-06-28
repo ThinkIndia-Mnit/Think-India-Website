@@ -33,10 +33,10 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 50px auto;
+
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:900px) {
     .disprow {
         display: flex;
         flex-direction: column;

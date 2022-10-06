@@ -1,0 +1,84 @@
+#kwickCont {
+  display: flex;
+  justify-content: center;
+}
+
+.kwicks-css li {
+  position: relative;
+  display: inline-block;
+  height: 250px;
+  min-width: 30px;
+  width: 130px;
+  overflow: hidden;
+  padding: 0px;
+  -moz-transition: all 0.8s ease;
+  -webkit-transition: a 0.8s ease;
+  transition: all 0.8s ease;
+  border: 2px solid black;
+}
+.kwicks-css li:hover,
+.kwicks-css li.active {
+  width: 290px;
+}
+.kwicks-css li {
+  text-align: center;
+}
+.kwicks-css li#start {
+  border-radius: 10px 0 0 10px;
+}
+.kwicks-css li#end {
+  border-radius: 0 10px 10px 0;
+}
+
+@media screen and (max-width: 1250px) {
+  .kwicks-css li {
+    height: 180px;
+    width: 100px;
+  }
+
+  .kwicks-css li:hover,
+  .kwicks-css li.active {
+    width: 215px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .kwicks-css li {
+    height: 150px;
+    width: 80px;
+  }
+
+  .kwicks-css li:hover,
+  .kwicks-css li.active {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .kwicks-css li {
+    width: 50px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .kwicks-css li {
+    width: 35px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .kwicks-css li {
+    height: 120px;
+  }
+
+  .kwicks-css li:hover,
+  .kwicks-css li.active {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .kwicks-css li {
+    width: 20px;
+  }
+}

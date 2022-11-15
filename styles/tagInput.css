@@ -1,0 +1,68 @@
+.tags-input-wrapper {
+  padding: 10px 0;
+}
+
+.tags-input-wrapper input {
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.tags-input-wrapper .tag {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 0px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  min-width: 35px;
+  text-align: center;
+  border-radius: 2px;
+  border: 1.5px solid;
+  width: 104px;
+
+  border-image: linear-gradient(
+      to right,
+      #003cff 14.285%,
+      #3998ff 28.57%,
+      #4ecaff 42.855%,
+      #ff7979 57.14%,
+      #ffad4e 71.425%,
+      rgba(255, 173, 78, 1) 85.71%,
+      rgba(255, 121, 121, 1) 100%
+    )
+    5;
+}
+
+.tags-input-wrapper .tag .crossLink {
+  margin-left: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tags-input-wrapper .navTag:hover {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  cursor: pointer;
+}
+
+.tags-input-wrapper .activeTag {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+@media only screen and (max-width: 700px) {
+  .tags-input-wrapper .tag {
+    width: 70px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .tags-input-wrapper .tag {
+    width: 50px;
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .tags-input-wrapper .tag {
+    width: 40px;
+    font-size: x-small;
+  }
+}
